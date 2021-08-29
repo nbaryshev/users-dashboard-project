@@ -1220,7 +1220,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
             resolve("User was added successfully");
           } else {
-            reject("User with such username already exists");
+            reject("User with such username already exists!");
           }
         });
       };
